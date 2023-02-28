@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4809BB429AE7FEC00017DBD /* EscapeKeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BB329AE7FEC00017DBD /* EscapeKeyApp.swift */; };
+		D4809BB629AE7FEC00017DBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BB529AE7FEC00017DBD /* ContentView.swift */; };
+		D4809BB829AE7FEF00017DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4809BB729AE7FEF00017DBD /* Assets.xcassets */; };
+		D4809BBB29AE7FEF00017DBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4809BBA29AE7FEF00017DBD /* Preview Assets.xcassets */; };
+		D4809BC629AE7FF000017DBD /* EscapeKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BC529AE7FF000017DBD /* EscapeKeyTests.swift */; };
+		D4809BD029AE7FF000017DBD /* EscapeKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BCF29AE7FF000017DBD /* EscapeKeyUITests.swift */; };
+		D4809BD229AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BD129AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4809BC229AE7FF000017DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4809BA829AE7FEB00017DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4809BAF29AE7FEC00017DBD;
+			remoteInfo = EscapeKey;
+		};
+		D4809BCC29AE7FF000017DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4809BA829AE7FEB00017DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4809BAF29AE7FEC00017DBD;
+			remoteInfo = EscapeKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4809BB029AE7FEC00017DBD /* EscapeKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscapeKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4809BB329AE7FEC00017DBD /* EscapeKeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeKeyApp.swift; sourceTree = "<group>"; };
+		D4809BB529AE7FEC00017DBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4809BB729AE7FEF00017DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4809BBA29AE7FEF00017DBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4809BBC29AE7FEF00017DBD /* EscapeKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EscapeKey.entitlements; sourceTree = "<group>"; };
+		D4809BC129AE7FF000017DBD /* EscapeKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapeKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4809BC529AE7FF000017DBD /* EscapeKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeKeyTests.swift; sourceTree = "<group>"; };
+		D4809BCB29AE7FF000017DBD /* EscapeKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapeKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4809BCF29AE7FF000017DBD /* EscapeKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeKeyUITests.swift; sourceTree = "<group>"; };
+		D4809BD129AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeKeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4809BAD29AE7FEC00017DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4809BBE29AE7FF000017DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4809BC829AE7FF000017DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4809BA729AE7FEB00017DBD = {
+			isa = PBXGroup;
+			children = (
+				D4809BB229AE7FEC00017DBD /* EscapeKey */,
+				D4809BC429AE7FF000017DBD /* EscapeKeyTests */,
+				D4809BCE29AE7FF000017DBD /* EscapeKeyUITests */,
+				D4809BB129AE7FEC00017DBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4809BB129AE7FEC00017DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4809BB029AE7FEC00017DBD /* EscapeKey.app */,
+				D4809BC129AE7FF000017DBD /* EscapeKeyTests.xctest */,
+				D4809BCB29AE7FF000017DBD /* EscapeKeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4809BB229AE7FEC00017DBD /* EscapeKey */ = {
+			isa = PBXGroup;
+			children = (
+				D4809BB329AE7FEC00017DBD /* EscapeKeyApp.swift */,
+				D4809BB529AE7FEC00017DBD /* ContentView.swift */,
+				D4809BB729AE7FEF00017DBD /* Assets.xcassets */,
+				D4809BBC29AE7FEF00017DBD /* EscapeKey.entitlements */,
+				D4809BB929AE7FEF00017DBD /* Preview Content */,
+			);
+			path = EscapeKey;
+			sourceTree = "<group>";
+		};
+		D4809BB929AE7FEF00017DBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4809BBA29AE7FEF00017DBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4809BC429AE7FF000017DBD /* EscapeKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4809BC529AE7FF000017DBD /* EscapeKeyTests.swift */,
+			);
+			path = EscapeKeyTests;
+			sourceTree = "<group>";
+		};
+		D4809BCE29AE7FF000017DBD /* EscapeKeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4809BCF29AE7FF000017DBD /* EscapeKeyUITests.swift */,
+				D4809BD129AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift */,
+			);
+			path = EscapeKeyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4809BAF29AE7FEC00017DBD /* EscapeKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4809BD529AE7FF000017DBD /* Build configuration list for PBXNativeTarget "EscapeKey" */;
+			buildPhases = (
+				D4809BAC29AE7FEC00017DBD /* Sources */,
+				D4809BAD29AE7FEC00017DBD /* Frameworks */,
+				D4809BAE29AE7FEC00017DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EscapeKey;
+			productName = EscapeKey;
+			productReference = D4809BB029AE7FEC00017DBD /* EscapeKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4809BC029AE7FF000017DBD /* EscapeKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4809BD829AE7FF000017DBD /* Build configuration list for PBXNativeTarget "EscapeKeyTests" */;
+			buildPhases = (
+				D4809BBD29AE7FF000017DBD /* Sources */,
+				D4809BBE29AE7FF000017DBD /* Frameworks */,
+				D4809BBF29AE7FF000017DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4809BC329AE7FF000017DBD /* PBXTargetDependency */,
+			);
+			name = EscapeKeyTests;
+			productName = EscapeKeyTests;
+			productReference = D4809BC129AE7FF000017DBD /* EscapeKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4809BCA29AE7FF000017DBD /* EscapeKeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4809BDB29AE7FF000017DBD /* Build configuration list for PBXNativeTarget "EscapeKeyUITests" */;
+			buildPhases = (
+				D4809BC729AE7FF000017DBD /* Sources */,
+				D4809BC829AE7FF000017DBD /* Frameworks */,
+				D4809BC929AE7FF000017DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4809BCD29AE7FF000017DBD /* PBXTargetDependency */,
+			);
+			name = EscapeKeyUITests;
+			productName = EscapeKeyUITests;
+			productReference = D4809BCB29AE7FF000017DBD /* EscapeKeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4809BA829AE7FEB00017DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D4809BAF29AE7FEC00017DBD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D4809BC029AE7FF000017DBD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D4809BAF29AE7FEC00017DBD;
+					};
+					D4809BCA29AE7FF000017DBD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D4809BAF29AE7FEC00017DBD;
+					};
+				};
+			};
+			buildConfigurationList = D4809BAB29AE7FEB00017DBD /* Build configuration list for PBXProject "EscapeKey" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4809BA729AE7FEB00017DBD;
+			productRefGroup = D4809BB129AE7FEC00017DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4809BAF29AE7FEC00017DBD /* EscapeKey */,
+				D4809BC029AE7FF000017DBD /* EscapeKeyTests */,
+				D4809BCA29AE7FF000017DBD /* EscapeKeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4809BAE29AE7FEC00017DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4809BBB29AE7FEF00017DBD /* Preview Assets.xcassets in Resources */,
+				D4809BB829AE7FEF00017DBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4809BBF29AE7FF000017DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4809BC929AE7FF000017DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4809BAC29AE7FEC00017DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4809BB629AE7FEC00017DBD /* ContentView.swift in Sources */,
+				D4809BB429AE7FEC00017DBD /* EscapeKeyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4809BBD29AE7FF000017DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4809BC629AE7FF000017DBD /* EscapeKeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4809BC729AE7FF000017DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4809BD029AE7FF000017DBD /* EscapeKeyUITests.swift in Sources */,
+				D4809BD229AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4809BC329AE7FF000017DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4809BAF29AE7FEC00017DBD /* EscapeKey */;
+			targetProxy = D4809BC229AE7FF000017DBD /* PBXContainerItemProxy */;
+		};
+		D4809BCD29AE7FF000017DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4809BAF29AE7FEC00017DBD /* EscapeKey */;
+			targetProxy = D4809BCC29AE7FF000017DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4809BD329AE7FF000017DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4809BD429AE7FF000017DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D4809BD629AE7FF000017DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EscapeKey/EscapeKey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EscapeKey/Preview Content\"";
+				DEVELOPMENT_TEAM = CTJBS6EJ84;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsllc.EscapeKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4809BD729AE7FF000017DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EscapeKey/EscapeKey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EscapeKey/Preview Content\"";
+				DEVELOPMENT_TEAM = CTJBS6EJ84;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsllc.EscapeKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4809BD929AE7FF000017DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJBS6EJ84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsllc.EscapeKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscapeKey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EscapeKey";
+			};
+			name = Debug;
+		};
+		D4809BDA29AE7FF000017DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJBS6EJ84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsllc.EscapeKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscapeKey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EscapeKey";
+			};
+			name = Release;
+		};
+		D4809BDC29AE7FF000017DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJBS6EJ84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsllc.EscapeKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EscapeKey;
+			};
+			name = Debug;
+		};
+		D4809BDD29AE7FF000017DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJBS6EJ84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitsllc.EscapeKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EscapeKey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4809BAB29AE7FEB00017DBD /* Build configuration list for PBXProject "EscapeKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4809BD329AE7FF000017DBD /* Debug */,
+				D4809BD429AE7FF000017DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4809BD529AE7FF000017DBD /* Build configuration list for PBXNativeTarget "EscapeKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4809BD629AE7FF000017DBD /* Debug */,
+				D4809BD729AE7FF000017DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4809BD829AE7FF000017DBD /* Build configuration list for PBXNativeTarget "EscapeKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4809BD929AE7FF000017DBD /* Debug */,
+				D4809BDA29AE7FF000017DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4809BDB29AE7FF000017DBD /* Build configuration list for PBXNativeTarget "EscapeKeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4809BDC29AE7FF000017DBD /* Debug */,
+				D4809BDD29AE7FF000017DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4809BA829AE7FEB00017DBD /* Project object */;
+}
