@@ -14,6 +14,7 @@
 		D4809BC629AE7FF000017DBD /* EscapeKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BC529AE7FF000017DBD /* EscapeKeyTests.swift */; };
 		D4809BD029AE7FF000017DBD /* EscapeKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BCF29AE7FF000017DBD /* EscapeKeyUITests.swift */; };
 		D4809BD229AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BD129AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift */; };
+		D4809BDF29AE804400017DBD /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4809BDE29AE804400017DBD /* StatusBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		D4809BCB29AE7FF000017DBD /* EscapeKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapeKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4809BCF29AE7FF000017DBD /* EscapeKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeKeyUITests.swift; sourceTree = "<group>"; };
 		D4809BD129AE7FF000017DBD /* EscapeKeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeKeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4809BDE29AE804400017DBD /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		D4809BE029AE80C600017DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +98,9 @@
 		D4809BB229AE7FEC00017DBD /* EscapeKey */ = {
 			isa = PBXGroup;
 			children = (
+				D4809BE029AE80C600017DBD /* Info.plist */,
 				D4809BB329AE7FEC00017DBD /* EscapeKeyApp.swift */,
+				D4809BDE29AE804400017DBD /* StatusBarController.swift */,
 				D4809BB529AE7FEC00017DBD /* ContentView.swift */,
 				D4809BB729AE7FEF00017DBD /* Assets.xcassets */,
 				D4809BBC29AE7FEF00017DBD /* EscapeKey.entitlements */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4809BB629AE7FEC00017DBD /* ContentView.swift in Sources */,
+				D4809BDF29AE804400017DBD /* StatusBarController.swift in Sources */,
 				D4809BB429AE7FEC00017DBD /* EscapeKeyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +430,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EscapeKey/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +458,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EscapeKey/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
