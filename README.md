@@ -1,19 +1,15 @@
 ![Alt text](.github/esckey_github_light.png?raw=true  "EscapeKey. Because I'm too lazy to get my TouchBar fixed.")
 
-<p align="center">
 <!-- [![build](https://img.shields.io/github/actions/workflow/status/fatihbalsoy/EscapeKey/swift.yml)](https://github.com/fatihbalsoy/EscapeKey/actions) -->
 ![Pre-release](https://img.shields.io/badge/-pre--release-red)
 ![License](https://img.shields.io/badge/license-AGPL-blue)
 ![macOS](https://img.shields.io/badge/macOS-11.0%2B-orange)
-</p>
 
 EscapeKey is a very simple macOS menu bar application that lets you simulate the `esc` key. This is useful if your MacBook's TouchBar is frozen, blank, and causing other inconveniences. Like every other Apple Device.
 
 If you need a full on-screen TouchBar, then you might find [Touché](https://redsweater.com/touche/) useful. It does not display the `esc` key :/
 
-<p align="center">
 ![Alt text](.github/menu-bar.png?raw=true  "The EscapeKey icon displayed within a tray of other menu bar icons.")
-</p>
 
 ## Installation
 
