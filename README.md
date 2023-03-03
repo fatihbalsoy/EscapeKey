@@ -11,7 +11,7 @@ EscapeKey is a very simple macOS menu bar application that lets you simulate the
 
 ## Installation
 
-You can download the latest version of the application with the `.dmg` file extension [here](https://github.com/fatihbalsoy/EscapeKey/releases/). To install, open the `.dmg` file and drag EscapeKey into your Applications folder.
+You can download the latest version of the application with the `.dmg` file extension [here](https://github.com/fatihbalsoy/EscapeKey/releases/). To install, open the `.dmg` file and drag EscapeKey into your Applications folder. To launch the app for the first time, right-click it and click `Open`.
 
 ## Usage
 
@@ -27,6 +27,6 @@ EscapeKey is available under the AGPL license. See the LICENSE file for more inf
 
 ## Disclaimer
 
-The use of any Apple Inc. trademarks, such as MacBook, Touch Bar, and macOS, in this prompt is solely for descriptive purposes and does not imply any affiliation, sponsorship, endorsement, or association with Apple Inc. or its products. The author of this prompt is not affiliated with Apple Inc. and does not endorse or promote any of its products or services.
+The use of any Apple Inc. trademarks, such as MacBook, Touch Bar, and macOS, on this page are solely for descriptive purposes and does not imply any affiliation, sponsorship, endorsement, or association with Apple Inc. or its products. The author of this page is not affiliated with Apple Inc. and does not endorse or promote any of its products or services.
 
 The EscapeKey app is provided as-is and without warranty of any kind. The author of this app is not responsible for any damages, injuries, or harm caused to your MacBook or any other device as a result of using this app. The user assumes full responsibility for any risks associated with the use of this app. Please use at your own risk.
