@@ -1,4 +1,4 @@
-![Alt text](.github/esckey_github_light.png?raw=true  "EscapeKey. Because I'm too lazy to get my TouchBar fixed.")
+![Alt text](.readme/esckey_github.png?raw=true  "EscapeKey. Because I'm too lazy to get my TouchBar fixed.")
 
 <!-- [![build](https://img.shields.io/github/actions/workflow/status/fatihbalsoy/EscapeKey/swift.yml)](https://github.com/fatihbalsoy/EscapeKey/actions) -->
 ![Pre-release](https://img.shields.io/badge/-pre--release-red)
@@ -9,7 +9,7 @@ EscapeKey is a very simple macOS menu bar application that lets you simulate the
 
 If you need a full on-screen TouchBar, then you might find [Touché](https://redsweater.com/touche/) useful. It does not display the `esc` key :/
 
-![Alt text](.github/menu-bar.png?raw=true  "The EscapeKey icon displayed within a tray of other menu bar icons.")
+![Alt text](.readme/menu-bar.png?raw=true  "The EscapeKey icon displayed within a tray of other menu bar icons.")
 
 ## Installation
 
