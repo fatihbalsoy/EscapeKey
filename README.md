@@ -9,7 +9,7 @@ EscapeKey is a very simple macOS menu bar application that lets you simulate the
 
 If you need a full on-screen TouchBar, then you might find [Touché](https://redsweater.com/touche/) useful. However, it does not display the `esc` key on some MacBooks.
 
-A better alternative to EscapeKey is to remap the MacBook's escape key to something like `command` + `caps lock` in the System Settings. Instructions on how to do this can be found [here](https://www.idownloadblog.com/2020/05/15/escape-key-shortcut-tutorial/#:~:text=On%20macOS%2C%20you%20must%20go,like%20Escape%2C%20then%20click%20OK.).
+A better alternative to EscapeKey is to remap the MacBook's escape key to `caps lock` in the System Settings. Instructions on how to do this can be found [here](https://www.idownloadblog.com/2020/05/15/escape-key-shortcut-tutorial/#:~:text=On%20macOS%2C%20you%20must%20go,like%20Escape%2C%20then%20click%20OK.). Unfortunately, this will disable the `caps lock` key's default behavior.
 
 ![Alt text](.readme/menu-bar.png?raw=true  "The EscapeKey icon displayed within a tray of other menu bar icons.")
 
